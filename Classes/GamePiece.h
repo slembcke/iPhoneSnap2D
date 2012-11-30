@@ -14,10 +14,10 @@ typedef enum GamePieceSize {
 	int points;
 	
 	ChipmunkBody *body;
-	NSSet *chipmunkObjects;
+	NSArray *chipmunkObjects;
 }
 
-@property (readonly) NSSet *chipmunkObjects;
+@property (readonly) NSArray *chipmunkObjects;
 @property (readonly) ChipmunkBody *body;
 @property (readonly) int points;
 

@@ -91,7 +91,6 @@
 		D32CB35A11245BCF007EBEB0 /* bar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bar.png; sourceTree = "<group>"; };
 		D32CB5C911247F75007EBEB0 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
 		D32CB97E1124CD1C007EBEB0 /* info.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = info.png; sourceTree = "<group>"; };
-		D32CBB3A1125DD02007EBEB0 /* README.rtf */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; path = README.rtf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -135,7 +134,6 @@
 			isa = PBXGroup;
 			children = (
 				D32AD78E165BF2E600126BA5 /* ChipmunkPro-iPhone-Trial */,
-				D32CBB3A1125DD02007EBEB0 /* README.rtf */,
 				080E96DDFE201D6D7F000001 /* Classes */,
 				29B97315FDCFA39411CA2CEA /* Other Sources */,
 				29B97317FDCFA39411CA2CEA /* Resources */,

@@ -42,7 +42,7 @@ static cpFloat cpfrand(void){return (cpFloat)rand()/(cpFloat)RAND_MAX;}
 		rotary.maxBias = 0.0; // Disable joint correction.
 		rotary.maxForce = 2000.0;
 		
-		chipmunkObjects = [NSArray arrayWithObjects:body, shape, linear, rotary, nil];
+		chipmunkObjects = @[body, shape, linear, rotary];
 		
 		self.center = CGPointZero;
 		[self updateTransform];
