@@ -1,3 +1,19 @@
+# This Project has Moved!
+
+You can find the new project page on the [Chipmunk2D Website](https://chipmunk-physics.net/git/iPhoneSnap2D.html).
+
+To migrate an existing checkout, you can use the following command, or make a new checkout of the project from the new location.
+
+```
+git remote set-url origin https://chipmunk-physics.net/git/iPhoneSnap2D
+git fetch origin master
+git reset origin/master
+```
+
+You may additionally need to run `git checkout .` to cleanup the deleted files. *This will also discard your local changes if you have made any.*
+
+To read more about why this project moved, you can read about it in [PROJECT_HAS_MOVED.md](PROJECT_HAS_MOVED.md)
+
 iPhoneSnap
 ==========
 
